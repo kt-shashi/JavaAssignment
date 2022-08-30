@@ -1,16 +1,16 @@
-// Assignment 2, Program 1
+package Assignment2;// Assignment 2, Program 1
 // 2021pgcaca050
 
 import java.util.*;
 import java.lang.Math;
-public class Main
+public class Main1
 {
 	public static void main(String[] args) {
 	    
 		int x1,x2,y1,y2,x3,x4,y3,y4;
 		Scanner inputHelper=new Scanner(System.in);
 		
-		System.out.println("Enter the coordinates of first line");
+		System.out.println("Enter the Assignment6.coordinates of first line");
 		System.out.print("x1 : ");
 		x1=inputHelper.nextInt();
 		System.out.print("x2 : ");
@@ -20,7 +20,7 @@ public class Main
 		System.out.print("y2 : ");
 		y2=inputHelper.nextInt();
 		
-		System.out.println("Enter the coordinates of second line");
+		System.out.println("Enter the Assignment6.coordinates of second line");
 		System.out.print("x3 : ");
 		x3=inputHelper.nextInt();
 		System.out.print("x4 : ");

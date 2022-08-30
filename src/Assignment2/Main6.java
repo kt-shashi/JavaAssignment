@@ -1,8 +1,8 @@
-// Assignment 2, Program 6
+package Assignment2;// Assignment 2, Program 6
 // 2021pgcaca050
 
 import java.util.Scanner;
-public class Main
+public class Main6
 {
     
 	public static void main(String[] args) {

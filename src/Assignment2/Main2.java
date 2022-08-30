@@ -1,9 +1,9 @@
-// Assignment 2, Program 2
+package Assignment2;// Assignment 2, Program 2
 // 2021pgcaca050
 
 import java.util.*;
 import java.lang.Math;
-public class Main
+public class Main2
 {
 	public static void main(String[] args) {
 	    
@@ -12,7 +12,7 @@ public class Main
 		int r, c1,c2,a1,a2;
 		System.out.println("Enter radius: ");
 		r=inputHelper.nextInt();
-		System.out.println("Enter coordinates of circle: ");
+		System.out.println("Enter Assignment6.coordinates of circle: ");
 		System.out.print("C1: ");
 		c1=inputHelper.nextInt();
 		System.out.print("C2: ");

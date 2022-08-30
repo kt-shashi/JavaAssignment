@@ -1,9 +1,9 @@
-// Assignment 2, Program 4
+package Assignment2;// Assignment 2, Program 4
 // 2021pgcaca050
 
 import java.util.*;
 
-public class Main
+public class Main4
 {
   public static void main (String[]args)
   {
