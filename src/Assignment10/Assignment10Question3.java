@@ -1,3 +1,5 @@
+package Assignment10;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -59,13 +61,13 @@ public class Assignment10Question3 extends JFrame implements ActionListener {
 
         if (s.equals("india")) {
 //            System.out.println("india");
-            imageIcon = new ImageIcon("D:\\Code\\JavaAssignment\\src\\indiaflag.png");
+            imageIcon = new ImageIcon("D:\\Code\\JavaAssignment\\src\\Assignment10\\indiaflag.png");
         } else if (s.equals("usa")) {
 //            System.out.println("usa");
-            imageIcon = new ImageIcon("D:\\Code\\JavaAssignment\\src\\usaflag.png");
+            imageIcon = new ImageIcon("D:\\Code\\JavaAssignment\\src\\Assignment10\\usaflag.png");
         } else {
 //            System.out.println("uk");
-            imageIcon = new ImageIcon("D:\\Code\\JavaAssignment\\src\\ukflag.png");
+            imageIcon = new ImageIcon("D:\\Code\\JavaAssignment\\src\\Assignment10\\ukflag.png");
         }
 
         jLabel.setIcon(imageIcon);
