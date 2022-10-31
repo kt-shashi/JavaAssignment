@@ -5,6 +5,22 @@ public class PenController {
     Pen pen;
     PenView penView;
 
+    public void setPenName(String name) {
+        pen.setName(name);
+    }
+
+    public void setPenColor(String color) {
+        pen.setColor(color);
+    }
+
+    public void setPenCompanyName(String companyName) {
+        pen.setCompanyName(companyName);
+    }
+
+    public void setPenPrice(double price) {
+        pen.setPrice(price);
+    }
+
     PenController() {
         pen = null;
         penView = null;
@@ -32,11 +48,11 @@ public class PenController {
     }
 
     void updateView() {
-        penView.printPenDetails();
+        penView.printPenDetails(pen.getName(), pen.getColor(), pen.getCompanyName(), pen.getPrice());
     }
 
     void updateViewQuantity() {
-        penView.printQuantityDetails();
+        penView.printQuantityDetails(pen.getQuantity());
     }
 
 }

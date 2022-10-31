@@ -26,14 +26,20 @@ class Main {
                     int noOfPen = inputHelper.nextInt();
 
                     Pen pen = new Pen("PenX", "Black", "Shashi Enterprise", 10);
-                    PenView penView = new PenView(pen);
+                    PenView penView = new PenView();
 
-                    penController.setPen(pen);
+                    penController.setPen(new Pen());
                     penController.setPenView(penView);
+
+                    penController.setPenName("PenX");
+                    penController.setPenColor("Black");
+                    penController.setPenCompanyName("Shashi Enterprise");
+                    penController.setPenPrice(10);
+
                     boolean isSold = penController.sellPen(noOfPen);
                     if (isSold) {
 
-                        System.out.println(noOfPen + " have been sold");
+                        System.out.println(noOfPen + " pens have been sold");
                         penController.updateView();
                         System.out.println("-Bill-");
                         System.out.println(pen.getPrice() + "*" + noOfPen + " = Rs." + pen.getPrice() * noOfPen);
