@@ -25,7 +25,7 @@ class Main {
                     System.out.println("How many pens do you wish to buy?");
                     int noOfPen = inputHelper.nextInt();
 
-                    Pen pen = new Pen("PenX", "Black", "Shashi Enterprise", 10);
+                    Pen pen = fetchPenData();
                     PenView penView = new PenView();
 
                     penController.setPen(new Pen());
@@ -61,4 +61,9 @@ class Main {
         }
 
     }
+
+    private static Pen fetchPenData() {
+        return new Pen("PenX", "Black", "Shashi Enterprise", 10);
+    }
+
 }
