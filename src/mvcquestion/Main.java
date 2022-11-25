@@ -1,4 +1,4 @@
-package mvcwala;
+package mvcquestion;
 
 import java.util.Scanner;
 

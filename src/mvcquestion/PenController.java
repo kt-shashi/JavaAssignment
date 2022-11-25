@@ -1,4 +1,4 @@
-package mvcwala;
+package mvcquestion;
 
 public class PenController {
 

@@ -1,4 +1,4 @@
-package mvcwala;
+package mvcquestion;
 
 class Pen {
 
